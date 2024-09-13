@@ -1,0 +1,86 @@
+# Ignore build outputs
+bin/
+obj/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Mono Auto Generated Files
+mono_crash.*
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# ASP.NET Scaffolding
+.scaffolding/
+
+# DotNet Cli Tool Restore
+**/tool-manifest.json
+**/.store/
+**/tools/
+**/additionally-referenced-projects.console/
+**/additionally-referenced-projects.error/
+**/additionally-referenced-projects.warning/
+
+# VS Code directories
+.vscode/
+.history/
+
+# Local test and debug files
+*.vspscc
+*.vssscc
+.vs/
+debug.log
+debug_test.log
+
+# Rider
+.idea/
+
+# JetBrains Rider project specific
+.idea/
+.idea/.idea_modules.xml
+.idea/.name
+.idea/dictionaries
+.idea/modules.xml
+.idea/*.iml
+.idea/workspace.xml
+.idea/riderRunConfigurations.xml
+
+# NuGet
+*.nupkg
+*.snupkg
+.nuget/
+NuGet.Config
+NuGet.exe
+NuGetScratch/
+
+# Resharper
+_ReSharper*
+*_ReSharper.Caches
+
+# Azure Pipeline Logs
+!azure-pipelines.yml
+!*.azure-pipelines.yml
+
+# NCrunch
+*.ncrunch*
+*.crunchsolution
+
+# Others
+*.sql
+*.sqlite
